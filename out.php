@@ -1,0 +1,10 @@
+<?php
+	session_start();
+	//либо
+	//session_destroy();
+	//либо
+	$_SESSION=array();
+?>
+<script>
+	document.location.href="index.php";
+</script>
