@@ -1,48 +1,75 @@
 *{
 	padding:0;
 	margin:0;
-	font-family: Vivaldi;
-	color: #483D8B;
-	background-color: #B0E0E6;
+	font-family: Georgia;
+	color: #1C1C1C;
+	font-style: italic;
+}
+html, body {
+	height: 100%;
+}
+body{
+	background-image: url(img/fon123.jpg);
+	background-attachment: fixed;
+}
+.page {
+	min-height: 100%; height: auto !important;
+}
+.wrap {
+	padding-bottom: 37px;
 }
 #header{
-	height:270px;
-	background:url(img/fon.jpg);
+	height:160px;
+	background:url(img/fonnew5.jpg);
 }
 #header h1{
+    color:#FFFF00;
 	float:left;
-	margin-left:75px;
-	margin-top:75px;
-	text-shadow:1px 1px 10px ;
-	font-size:75px;
+	padding-left:55px;
+	padding-top:15px;
+	text-shadow: 4px 3px 0px #696969, 9px 8px 0px rgba(0,0,0,0.8);
+	font-size:80px;
+    font-family: Vivaldi;
+    background: none;
 }
 .logo{
 	float:right;
-	margin-top:15px;
-	margin-right:40px;
+	padding-top:15px;
+	padding-right:40px;
+	background: none;
+}
+.menu{
+	margin-top:-30px;
+}
+.menubutton{
+	
+	width:20%;
+	box-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
 }
 .menu a{
+	margin:0px -1px 0px -1px;
 	display:block;
-	background:#00BFFF;
-	color:#000080;
+	background:#BEBEBE;
 	text-decoration:none;
 	text-align:center;
 	padding-top:5px;
 	padding-bottom:5px;
-	border-left:solid 1px #0000CD;
+	border:solid 1px #FFFF00;
+	border-radius:5px;
 }
 .menu a:hover{
-	background:#E0FFFF;
-	color:#0000FF;
+	background:#9C9C9C;
+	color:#FFFF00;
 }
 .block{
 	width:200px;
-	border: solid 1px #20B2AA;
-	margin:5px;
-	box-shadow: 1px 1px 10px #7CFC00;
-	border-radius:10px;
-	background:#006400;
-	padding-left:5px;
+	border: solid 2px #FFFF00;
+	margin: 10px 10px 10px 10px;
+	box-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+	border-radius:5px;
+	padding:2px;
 }
 .left{
 	float:left;
@@ -52,17 +79,108 @@
 }
 .leftmenu a{
 	display:block;
-	background:#7CFC00;
-	color: 	#006400;
+	background:#CFCFCF;
 	padding-top:3px;
 	padding-bottom:3px;
 	text-decoration:none;
-	border-bottom: solid 1px #66CDAA;
-	padding-left:15px;
+	border-radius:5px;
+	border: solid 1px #FFFF00;
+	padding-left:10px;
+}
+.leftmenu a:hover{
+	background:#9C9C9C;
+	color:#FFFF00;
+}
+.title{
+	border-radius:5px;
+	border: solid 1px #FFFF00;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-decoration:none;
+	text-align:center;
+	background:#BEBEBE;
+}
+#tovarmenu a{
+	display:block;
+	text-decoration:none;
+	text-indent: 30pt;
+	padding-top:10px;
+}
+#tovarmenu a:hover{
+	color:#FFFF00;
+}
+.maintext{
+	padding:10px;
+	border: solid 1px #FFFF00;
+	background:#CFCFCF;
+	border-radius:5px;
+}
+.maintext p{
+	text-indent: 30pt;
+}
+.maintext h3{
+	text-align: center;
+	padding:5px;
+	color:#FFFF00;
+}
+.maintext h2{
+	text-align: center;
+	padding:20px;
+	letter-spacing: 2px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+.tabletovar {
+	margin-top:10px;
+}
+.tabletovar td{
+	padding: 7px;
+	border: solid 1px #FFFF00;
+}
+.maintext ul, ol{
+	padding: 5px 0px 5px 40px;
+}
+
+.mntxt{
+	border: solid 1px #FFFF00;
+	background:none;
+	border-radius:5px;
+	margin: 10px 227px 0px 227px;
+	padding:2px;
+	box-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
 }
 .footer{
-	padding-top:50px;
-	padding-bottom:50px;
+	height: 25px;
+	margin-top: -37px;
+	padding-top:5px;
+	padding-bottom:5px;
 	text-align:center;
-	background:#B0C4DE;
+	background:#BEBEBE;
+	border:solid 1px #FFFF00;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+	box-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+}
+.footer a{
+	background: none;
+	text-decoration:none;
+	font-family: Vivaldi;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+.footer a:hover{
+	color:#FFFF00;
+}
+.regy a{
+	text-decoration:none;
+	line-height: 30px;
+	color:#FFFF00;
+	text-shadow: 4px 3px 0px rgba(0,0,0,0.8);
+}
+.regy a:hover{
+color: #FFE1FF;
 }
